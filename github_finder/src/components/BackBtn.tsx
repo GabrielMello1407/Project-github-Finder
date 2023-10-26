@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom'
+import React from 'react'
 import classes from './BackBtn.module.css'
-const BackBtn = () => {
+const BackBtn: React.FC = () => {
   const navigate = useNavigate()
   return (
     <>
